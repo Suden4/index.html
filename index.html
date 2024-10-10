@@ -4,106 +4,290 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Site</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Freelancer - Start Bootsrap Tamplate</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="bgimage"></div>
-        <div class="content">
-            <h1>Suden Özcan <i class="fa-solid fa-camera"></i> @zcansuden</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" class="btn">Read More</a>
+    <nav>
+        <div class="container clearfix">
+            <div id="logo-box">
+                <a href="/" class="logo text-uppercase"> Start Bootstrap</a>
+            </div>
+            <div id="nav-links" class="responsive">
+                <ul>
+                    <li class="nav-item text-uppercase nav-icon">
+                        <a href="#" class="nav-link"></a>
+                        <i class="fa-solid fa-bars"></i>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a href="#" class="nav-link"></a>
+                        Portfollio
+                    </li>
+                    <li class="nav-item text text-uppercase">
+                        <a href="#" class="nav-link"></a>
+                        About
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a href="#" class="nav-link"></a>
+                        Contact
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
 
+    <header>
+        <div class="container">
+            <img id="profile-image" class="img-fluid" src="imagess/avatar.png" alt="">
+            <h1 class="text-uppercase">Start Bootstrap</h1>
+            <hr class="star-light">
+            <h2>Graphic Artist - Web Designer - Illustrator</h2>
+        </div>
     </header>
 
-    <main>
-        <section id="section-a">
-            <div class="centent">
-                <h2>Nature Landscape Photography</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, non?</p>
-            </div>
-        </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase">
+                Portfolio
+            </h2>
+            <hr class="star-dark">
 
-        <section id="section-b">
-            <ul>
-                <li>
-                    <div class="col">
-                        <img src="images/i(1).png" alt="">
-                        <div class="col-content">
-                            <h3 class="col-title"> Photography</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+
+            <div id="portfolio-images" class="clearfix"></div>
+
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img class="img-fluid-p" src="imagess/cabin.png" alt="">
+
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </a>
 
-                <li>
-                    <div class="col">
-                        <img src="images/i-_1_.png" alt="">
-                        <div class="col-content">
-                            <h3 class="col-title"> Photography</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img class="img-fluid-p" src="imagess/cake.png" alt="">
+
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </a>
 
-                <li>
-                    <div class="col">
-                        <img src="images/i.jpg">
-                        <div class="col-content">
-                            <h3 class="col-title"> Photography</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img class="img-fluid-p" src="imagess/circus.png" alt="">
+
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </section>
+                    </a>
 
-        <section id="section-c">
-            <div class="content">
-                <h2> <i class="fa-solid fa-circle-info"></i>Information</h2>
-            </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam vitae culpa aliquam, quo distinctio cum?
-            </p>
-        </section>
-
-        <section id="section-d" class="clearfix">
-            <div class="box">
-                <h2 class="content title">
-                    About Us
-                </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, magnam?</p>
-                <p><i class="fa-brands fa-youtube"></i>https://youtu.be/rbcM5JTQbGM</p>
+                </div>
             </div>
 
-            <div class="box">
-                <h2 class="content-title">
-                    Contact Us
-                </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quaerat omnis, distinctio aperiam odio
-                    quas nostrum architecto quo rem tempora!</p>
-                <p><i class="fa-brands fa-instagram"></i>Instagram.com</p>
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img class="img-fluid-p" src="imagess/game.png" alt="">
+
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
             </div>
-        </section>
-    </main>
+
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img class="img-fluid-p" src="imagess/safe.png" alt="">
+
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="#">
+                        <img class="img-fluid-p" src="imagess/submarine.png" alt="">
+
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="text-uppercase">
+            About</h2>
+        <hr class="star-light">
+
+        <div id="about-text" class="clearfix">
+            <div class="left">
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae libero veritatis accusamus,
+                    molestias vitae ex repudiandae fuga at quam possimus necessitatibus nesciunt! Reiciendis minus quam
+                    delectus, ullam odio nihil! Labore.
+                </p>
+            </div>
+            <div class="right">
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veritatis, ab odio tempora rem,
+                    distinctio, rerum quos cum reiciendis molestias a vitae. Impedit, exercitationem id accusantium
+                    nesciunt cum aspernatur expedita.
+                </p>
+
+            </div>
+        </div>
+
+        <button class="btn btn-outline btn-large">
+            <i class="fa-solid fa-download"></i>
+            Download Now!
+        </button>
+
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-uppercase">
+                Contact Me
+            </h2>
+            <hr class="star-dark">
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="phone" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Message"></textarea>
+                </div>
+
+                <button class="btn btn-primary">
+                    Send
+                </button>
+            </form>
+        </div>
+    </section>
 
     <footer>
-        <div>Lorem, ipsum dolor.</div>
-        <div>powered by <a href="#"> Suden Özcan</a></div>
+        <div class="container clearfix">
+            <div class="col">
+                <h4 class="text-uppercase">
+                    Location
+                </h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+            <div class="col">
+                <h4 class="text-uppercase">
+                    Around the Web
+                </h4>
+                <ul>
+                    <li>
+                        <button class="btn btn-outline btn-social">
+                            <i class="fa-brands fa-facebook"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline btn-social">
+                            <i class="fa-brands fa-twitter"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline btn-social">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline btn-social">
+                            <i class="fa-brands fa-dribbble"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4 class="text-uppercase">
+                    About Freelancer
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aut deserunt iusto ullam ut
+                    eligendi?</p>
+            </div>
+        </div>
     </footer>
 
+    <div class="copyright">
+        <div class="container">
+            <small>Lorem ipsum dolor 2024.</small>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(".nav-icon").click (function(){
+            $("#nav-links").toggleClass("responsive");
+            return false;
+
+        });
+        
+
+    </script>
+
 </body>
-
-
 
 </html>
